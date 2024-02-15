@@ -24,11 +24,61 @@ a:hover {
   color: #999999;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
+h1 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.3em;
+  word-wrap: break-word;
+  color: #111111;
+  font-size: 37px;
+}
+
+h2 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.3em;
+  word-wrap: break-word;
+  color: #111111;
+  font-size: 31px;
+}
+
+h3 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.3em;
+  word-wrap: break-word;
+  color: #111111;
+  font-size: 26px;
+}
+
+h4 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.3em;
+  word-wrap: break-word;
+  color: #111111;
+  font-size: 21px;
+}
+
+h5 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.3em;
+  word-wrap: break-word;
+  color: #111111;
+  font-size: 18px;
+}
+
 h6 {
   margin-top: 25px;
   margin-bottom: 20px;
@@ -37,29 +87,6 @@ h6 {
   line-height: 1.3em;
   word-wrap: break-word;
   color: #111111;
-}
-
-h1 {
-  font-size: 37px;
-}
-
-h2 {
-  font-size: 31px;
-}
-
-h3 {
-  font-size: 26px;
-}
-
-h4 {
-  font-size: 21px;
-}
-
-h5 {
-  font-size: 18px;
-}
-
-h6 {
   font-size: 15px;
 }
 
@@ -126,7 +153,8 @@ footer {
 
 .footer-logo {
   width: 200px;
-  margin: 20px auto;
+  margin: 20px auto 40px;
+  margin-bottom: 20px;
   text-align: center;
   vertical-align: middle;
 }
